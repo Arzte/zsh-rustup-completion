@@ -17,7 +17,9 @@ vim ~/.zshrc
 
 Add the plugin to zinit
 ```bash
-zinit lucid wait for Arzte/zsh-rustup-completion
+zinit lucid wait for \
+  atinit"zicompinit; zicdreplay" \
+    Arzte/zsh-rustup-completion
 ```
 
 ### Oh-My-Zsh

@@ -3,15 +3,28 @@ zsh-rustup-completion
 
 Oh-my-zsh rustup completion plugin.
 
-Rustup version: **1.18.3** (435397f48 2019-05-22)
+Rustup version: **1.44.0** (b8cedc004 2020-03-09)
 
 ## Installation
 
 First clone the repository repo in the custom zsh plugins folder:
 
+### Zinit
+Open ~/.zshrc
+```bash
+vim ~/.zshrc
+```
+
+Add the plugin to zinit
+```bash
+zinit lucid wait for Arzte/zsh-rustup-completion
+```
+
+### Oh-My-Zsh
+
 ```bash
 cd ~/.oh-my-zsh/custom/plugins
-git clone https://github.com/pkulev/zsh-rustup-completion.git rustup
+git clone https://github.com/Arzte/zsh-rustup-completion.git rustup
 ```
 
 Open ~/.zshrc:
